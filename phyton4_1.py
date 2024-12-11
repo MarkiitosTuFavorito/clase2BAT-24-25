@@ -1,1 +1,0 @@
-n1 = int(input("Dame un número entero "))
