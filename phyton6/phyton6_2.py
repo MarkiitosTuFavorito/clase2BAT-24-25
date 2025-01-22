@@ -5,8 +5,8 @@
 contraseña = input("Dame la contraseña: ")
 clave = input("Dame la calve: ")
 
-while contraseña != "admin" and clave != "0987" :
+while contraseña != "admin" or clave != "0987" :
     print("CLAVE O/Y CONTRASEÑA INCORRECTA")
     contraseña = input("Dame la contraseña: ")
     calve = input("Dame la calve: ")
-print ("Exacto la contraseña es admin y la clave es 987")
+print ("Exacto la contraseña es admin y la clave es 0987")
