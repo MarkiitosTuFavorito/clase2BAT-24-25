@@ -5,4 +5,7 @@ n = int(input("Dime un número entero: "))
 n1 = 1
 
 for n1 in range (0,n+1,7):
-  print (n1)
+  if n1 == 0:
+    print ("1")
+  else:
+    print(n1)
